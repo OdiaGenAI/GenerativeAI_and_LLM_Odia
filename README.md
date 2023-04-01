@@ -4,6 +4,7 @@
 ## Table of contents
 * [About](#about)
 * [Why OdiaGen](#why-odiagen)
+* [What are the Focus Research Areas of OdiaGen](#what-are-the-focus-research-areas-of-odiagen)
 
 
 ## About
@@ -28,9 +29,11 @@ The major focus areas is divided into three tasks.
 *  **WP3_Deployment:** Deploy the models for public access for research and non-commercial purposes.
 
 ## Contributors
-* Shantipriya Parida
-* Subhadarshi Panda
-* Soumendra Kumar Sahoo
+* [Shantipriya Parida](https://www.linkedin.com/in/shantipriya-parida-9781a9127/)
+* [Sambit Sekhar](https://www.linkedin.com/in/sambit-sekhar-ai/)
+* [Subhadarshi Panda](https://www.linkedin.com/in/subhadarshi-panda-1ba5091a/)
+* [Soumendra Kumar Sahoo](https://www.linkedin.com/in/soumendrak/)
+* [Swateek Jena](https://www.linkedin.com/in/swateek/)
 
 
 

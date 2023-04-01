@@ -22,11 +22,11 @@ The OdiaGen aims to i) build pre-trained Odia LLM, ii) fine-tuned Odia LLM, and 
 * **Third**: the usage (privacy) of data input to these LLMs is in question.
 
 ## What are the focus research areas of OdiaGen
-The major focus areas are divided into three tasks.
+The major focus areas are divided into three parts.
 
-*  **WP1_Literature Survey:** Investigate the latest developments in Generative AI and LLMs and analyze recent methods to support Odia language for different tasks. 
-*  **WP2_Development:** Developing pre-trained and fine-tuned Odia LLM which includes dataset preparation, model training, evaluation, prompt engineering, and API development. 
-*  **WP3_Deployment:** Deploy the models for public access for research and non-commercial purposes.
+*  **1. Literature Survey:** Investigate the latest developments in Generative AI and LLMs and analyze recent methods to support Odia language for different tasks. 
+*  **2. Development:** Developing pre-trained and fine-tuned Odia LLM which includes dataset preparation, model training, evaluation, prompt engineering, and API development. 
+*  **3. Deployment:** Deploy the models for public access for research and non-commercial purposes.
 
 ## Who can use these models
 The models (pre-trained/fine-tuned) will be available through Hugging Face for research and mon-commercial purposes. For domain specific application or particular use cases feel free to contact. 

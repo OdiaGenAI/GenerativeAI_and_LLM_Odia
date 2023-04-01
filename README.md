@@ -15,8 +15,7 @@ The OdiaGen aims to i) build pre-trained Odia LLM, ii) fine-tuned Odia LLM, and 
 
 ## Why OdiaGen
 
-* **First**: though many LLMs support multilingual including Odia language, the performance for various tasks (e.g. content generation, question-answering) is limited due to ingested data for Odia. 
-
+* **First**: though many LLMs support multilingual including Odia language, the performance for various tasks (e.g. content generation, question-answering) is limited due to the amount of ingested data for Odia. 
 * **Second**: there is subscription or fees associated with the high-performing LLMs.
 
 * **Third**: the usage of data input to these LLMs is in question.
@@ -35,6 +34,7 @@ The major focus areas is divided into three tasks.
 * [Soumendra Kumar Sahoo](https://www.linkedin.com/in/soumendrak/)
 * [Swateek Jena](https://www.linkedin.com/in/swateek/)
 
-
+## Contact
+Please contact Shantipriya Parida (shantipriya.parida@gmail.com) for any contribution/support/usage.
 
 

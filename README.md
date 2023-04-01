@@ -33,6 +33,7 @@ The major focus areas are divided into three tasks.
 * [Subhadarshi Panda](https://www.linkedin.com/in/subhadarshi-panda-1ba5091a/)
 * [Soumendra Kumar Sahoo](https://www.linkedin.com/in/soumendrak/)
 * [Swateek Jena](https://www.linkedin.com/in/swateek/)
+* [Abhijeet Parida](https://www.linkedin.com/in/a-parida/)
 
 ## Contact
 Please contact Shantipriya Parida (shantipriya.parida@gmail.com) for any contribution/support/usage.

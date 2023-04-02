@@ -42,13 +42,13 @@ We have divided the primary focus areas into three parts.
 **3. Deployment:** Deploy the Odia LLM models for public access for research and non-commercial purposes.
 
 ## Who can use these models
-The models (pre-trained/fine-tuned) will be available through Hugging Face for research and non-commercial purposes. Feel free to contact for a domain-specific application or particular use cases. 
+The models (pre-trained/fine-tuned) will be available through Hugging Face for research and non-commercial purposes. Feel free to contact us for a domain-specific application or particular use cases. 
 
 ## What are the use cases of Odia LLM models
-There several use cases of Odia LLM. Three primary domains which we are focusing to use the developed Odia LLM are:
+There are several use cases of Odia LLM. Three primary domains relating to Odisha which we are focusing to use the developed Odia LLM are:
 * Education
 * Healthcare
-* Goverance
+* Governance
 
 ## Contributors
 * [Shantipriya Parida](https://www.linkedin.com/in/shantipriya-parida-9781a9127/)

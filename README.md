@@ -9,6 +9,7 @@
   - [Why OdiaGen](#why-odiagen)
   - [What are the focus research areas of OdiaGen](#what-are-the-focus-research-areas-of-odiagen)
   - [Who can use these models](#who-can-use-these-models)
+  - [What are the use cases of Odia LLM models](#what-are-the-use-cases-of-odia-llm-models)
   - [Contributors](#contributors)
   - [Contact](#contact)
 
@@ -38,10 +39,16 @@ We have divided the primary focus areas into three parts.
 
 **2. Development:** Developing pre-trained and fine-tuned Odia LLM, which includes dataset preparation, model training, evaluation, prompt engineering, and API development. 
 
-**3. Deployment:** Deploy the models for public access for research and non-commercial purposes.
+**3. Deployment:** Deploy the Odia LLM models for public access for research and non-commercial purposes.
 
 ## Who can use these models
 The models (pre-trained/fine-tuned) will be available through Hugging Face for research and non-commercial purposes. Feel free to contact for a domain-specific application or particular use cases. 
+
+## What are the use cases of Odia LLM models
+There several use cases of Odia LLM. Three primary domains which we are focusing to use the developed Odia LLM are:
+* Education
+* Healthcare
+* Goverance
 
 ## Contributors
 * [Shantipriya Parida](https://www.linkedin.com/in/shantipriya-parida-9781a9127/)

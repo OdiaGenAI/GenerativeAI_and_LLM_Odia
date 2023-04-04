@@ -49,6 +49,9 @@ There are several use cases of Odia LLM. Three primary domains relating to Odish
 * Education
 * Healthcare
 * Governance
+* Tourism
+* Agriculture
+* Industrial Application
 
 ## Contributors
 * [Shantipriya Parida](https://www.linkedin.com/in/shantipriya-parida-9781a9127/)
@@ -57,6 +60,8 @@ There are several use cases of Odia LLM. Three primary domains relating to Odish
 * [Soumendra Kumar Sahoo](https://www.linkedin.com/in/soumendrak/)
 * [Swateek Jena](https://www.linkedin.com/in/swateek/)
 * [Abhijeet Parida](https://www.linkedin.com/in/a-parida/)
+* [Arghyadeep Sen](https://www.linkedin.com/in/arghyadeep-sen-kiit/)
+* [Dr. Satya Ranjan Dash](https://ksca.kiit.ac.in/profiles/satya-ranjan-dash/)
 
 ## Contact
 Please contact Shantipriya Parida (shantipriya.parida@gmail.com) for any contribution/support/usage.

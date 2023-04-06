@@ -1,6 +1,8 @@
 # Odia Generative AI (OdiaGenAI)
 
-![OdiaGenAI](odiagenai_logo.jpg)
+<p align="left">
+  <img src="odiagen_logo.jpg" width="150" height="150">
+</p>
 
 
 ## Table of contents

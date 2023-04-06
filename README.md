@@ -1,4 +1,4 @@
-# Odia Generative AI (OdiaGen)
+# Odia Generative AI (OdiaGenAI)
 
 
 ## Table of contents

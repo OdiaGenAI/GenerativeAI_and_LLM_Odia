@@ -1,6 +1,6 @@
 # Odia Generative AI (OdiaGenAI)
 
-
+![OdiaGenAI](odiagenai_logo.jpg)
 
 
 ## Table of contents

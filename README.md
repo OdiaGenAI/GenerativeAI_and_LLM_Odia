@@ -15,24 +15,24 @@
 
 
 ## About
-The Odia Generative AI (in short, OdiaGen) is an initiative to research Generative AI and Large Language Models (LLMs) for the low-resource Odia language.
+The Odia Generative AI (in short, OdiaGenAI) is an initiative to research Generative AI and Large Language Models (LLMs) for the low-resource Odia language.
 
 ## Objective
-The OdiaGen aims to 
+The OdiaGenAI aims to 
 1. Build pre-trained Odia LLM, 
 2. Fine-tuned Odia LLM, and 
 3. Instruct LLM (Odia). 
 
 The data, code, and models will be available to the public for research and non-commercial purposes.  
 
-## Why OdiaGen
+## Why OdiaGenAI
 
 * **First**: Though many LLMs support multilingual, including Odia language, the performance for various tasks (e.g., content generation, question-answering) is limited due to the amount of ingested data for Odia. 
 * **Second**: There is subscription or fees associated with the high-performing LLMs.
 
 * **Third**: The usage (privacy) and bias of data input to these LLMs are in question.
 
-## What are the focus research areas of OdiaGen
+## What are the focus research areas of OdiaGenAI
 We have divided the primary focus areas into three parts.
 
 **1. Literature Survey:** Investigate the latest developments in Generative AI and LLMs and analyze current methods to support the Odia language for different tasks. 
@@ -41,11 +41,11 @@ We have divided the primary focus areas into three parts.
 
 **3. Deployment:** Deploy the Odia LLM models for public access for research and non-commercial purposes.
 
-## Who can use these models
+## Who can use OdiaGenAI LLMs
 The models (pre-trained/fine-tuned) will be available through Hugging Face for research and non-commercial purposes. Feel free to contact us for a domain-specific application or particular use cases. 
 
-## What are the use cases of Odia LLM models
-There are several use cases of Odia LLM. Three primary domains relating to Odisha which we are focusing to use the developed Odia LLM are:
+## What are the use cases of OdiaGenAI LLMs
+There are several use cases of OdiaGenAI LLMs. Three primary domains relating to Odisha which we are focusing to use the developed LLM are:
 * Education
 * Healthcare
 * Governance

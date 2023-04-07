@@ -66,6 +66,7 @@ There are several use cases of OdiaGenAI LLMs. Three primary domains relating to
 * [Abhijeet Parida](https://www.linkedin.com/in/a-parida/)
 * [Arghyadeep Sen](https://www.linkedin.com/in/arghyadeep-sen-kiit/)
 * [Dr. Satya Ranjan Dash](https://ksca.kiit.ac.in/profiles/satya-ranjan-dash/)
+* [Deepak Kumar Pradhan](https://www.linkedin.com/in/dkpradhan/)
 
 ## Contact
 Please contact Shantipriya Parida (shantipriya.parida@gmail.com) for any contribution/support/usage.

@@ -101,7 +101,7 @@ Please contact Shantipriya Parida (shantipriya.parida@gmail.com) for any contrib
 If you find this repository useful, please consider giving ⭐ and citing:
 ```
 @misc{OdiaGenAI,
-  author = {Shantipriya Parida, and Sambit Sekhar, and Subhadarshi Panda, and Soumendra Kumar Sahoo, and Swateek Jena, and Abhijeet Parida, Arghyadeep Sen, and Satya Ranjan Dash, and Deepak Kumar Pradhan},
+  author = {Shantipriya Parida and Sambit Sekhar and Subhadarshi Panda and Soumendra Kumar Sahoo and Swateek Jena and Abhijeet Parida and Arghyadeep Sen and Satya Ranjan Dash and Deepak Kumar Pradhan},
   title = {OdiaGenAI: Generative AI and LLM Initiative for the Odia Language},
   year = {2023},
   publisher = {GitHub},

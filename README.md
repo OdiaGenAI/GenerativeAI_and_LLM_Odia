@@ -1,7 +1,7 @@
 # Odia Generative AI (OdiaGenAI)
 
-<p align="left">
-  <img src="odiagen_new_logo.png" width="150" height="150">
+<p align="center">
+  <img src="odiagen_new_logo.png" width="250" height="250">
 </p>
 
 

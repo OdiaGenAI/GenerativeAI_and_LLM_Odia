@@ -1,0 +1,5 @@
+.*
+!.gitignore
+*.csv
+*.txt
+!.pre-commit-config.yaml

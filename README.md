@@ -1,4 +1,4 @@
-# Odia Generative AI (OdiaGenAI)
+# OdiaGenAI: Generative AI and LLM Initiative for the Odia Language
 
 <p align="center">
   <img src="odiagen_new_logo.png" width="250" height="250">
@@ -93,3 +93,12 @@ There are several use cases of OdiaGenAI LLMs. Three primary domains relating to
 ## Contact
 
 Please contact Shantipriya Parida (shantipriya.parida@gmail.com) for any contribution/support/usage.
+
+## Citation
+If you find this repository useful, please consider giving ⭐ and citing:
+
+
+
+
+
+

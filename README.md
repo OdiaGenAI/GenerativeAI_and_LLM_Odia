@@ -94,9 +94,21 @@ There are several use cases of OdiaGenAI LLMs. Three primary domains relating to
 
 Please contact Shantipriya Parida (shantipriya.parida@gmail.com) for any contribution/support/usage.
 
+## License
+(to be updated)
+
 ## Citation
 If you find this repository useful, please consider giving ⭐ and citing:
-
+```
+@misc{OdiaGenAI,
+  author = {Shantipriya Parida, and Sambit Sekhar, and Subhadarshi Panda, and Soumendra Kumar Sahoo, and Swateek Jena, and Abhijeet Parida, Arghyadeep Sen, and Satya Ranjan Dash, and Deepak Kumar Pradhan},
+  title = {OdiaGenAI: Generative AI and LLM Initiative for the Odia Language},
+  year = {2023},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/shantipriyap/OdiaGenAI}},
+}
+```
 
 
 

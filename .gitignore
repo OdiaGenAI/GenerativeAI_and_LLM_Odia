@@ -1,5 +1,15 @@
 .*
-!.gitignore
 *.csv
 *.txt
+*.zip
+
+!.gitignore
 !.pre-commit-config.yaml
+!pip-requirements.txt
+
+**/output
+**/venv
+**/__pycache__
+**/indicTrans
+**/fairseq
+**/en-indic

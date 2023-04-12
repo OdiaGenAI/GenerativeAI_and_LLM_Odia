@@ -44,6 +44,14 @@ The data, code, and models will be available to the public for research and non-
 
 ```bash
   pre-commit install
+  python3 -m venv venv
+```
+
+3. Install pip dependencies
+
+```bash
+  souce venv/bin/python3
+  pip install -r pip-requirements.txt --no-cache-dir
 ```
 
 ## Why OdiaGenAI

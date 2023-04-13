@@ -94,9 +94,6 @@ There are several use cases of OdiaGenAI LLMs. Three primary domains relating to
 
 Please contact Shantipriya Parida (shantipriya.parida@gmail.com) for any contribution/support/usage.
 
-## License
-(to be updated)
-
 ## Citation
 If you find this repository useful, please consider giving ⭐ and citing:
 ```
@@ -110,7 +107,8 @@ If you find this repository useful, please consider giving ⭐ and citing:
 }
 ```
 
-
-
+## License
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
 
 

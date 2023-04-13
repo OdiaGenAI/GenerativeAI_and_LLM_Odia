@@ -20,6 +20,8 @@
   - [What are the use cases of OdiaGenAI LLMs](#what-are-the-use-cases-of-odiagenai-llms)
   - [Contributors](#contributors)
   - [Contact](#contact)
+  - [Citation](#citation)
+  - [License](#license)
 
 ## About
 

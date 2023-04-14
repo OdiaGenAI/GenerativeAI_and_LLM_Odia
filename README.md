@@ -1,8 +1,11 @@
-# Odia Generative AI (OdiaGenAI)
+# OdiaGenAI: Generative AI and LLM Initiative for the Odia Language
 
 <p align="center">
   <img src="odiagen_new_logo.png" width="250" height="250">
 </p>
+
+[![HuggingFace badge](https://img.shields.io/badge/%F0%9F%A4%97HuggingFace-Join-yellow)](https://huggingface.co/OdiaGenAI)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ## Table of contents
 
@@ -17,6 +20,8 @@
   - [What are the use cases of OdiaGenAI LLMs](#what-are-the-use-cases-of-odiagenai-llms)
   - [Contributors](#contributors)
   - [Contact](#contact)
+  - [Citation](#citation)
+  - [License](#license)
 
 ## About
 
@@ -101,3 +106,29 @@ There are several use cases of OdiaGenAI LLMs. Three primary domains relating to
 ## Contact
 
 Please contact Shantipriya Parida (shantipriya.parida@gmail.com) for any contribution/support/usage.
+
+## Citation
+If you find this repository useful, please consider giving ⭐ and citing:
+```
+@misc{OdiaGenAI,
+  author = {Shantipriya Parida and Sambit Sekhar and Subhadarshi Panda and Soumendra Kumar Sahoo and Swateek Jena and Abhijeet Parida and Arghyadeep Sen and Satya Ranjan Dash and Deepak Kumar Pradhan},
+  title = {OdiaGenAI: Generative AI and LLM Initiative for the Odia Language},
+  year = {2023},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/shantipriyap/OdiaGenAI}},
+}
+```
+
+## License
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+
+

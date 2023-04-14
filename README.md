@@ -7,8 +7,8 @@
   <img src="odiagen_new_logo.png" width="250" height="250">
 </p>
 
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/OdiaGenAI)
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/bqrzkYAd)
+[![Twitter](https://img.shields.io/badge/Follow@OdiaGenAI-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/OdiaGenAI)
+[![Discord](https://img.shields.io/badge/Join_OdiaGenAI_Discord_Channel-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/bqrzkYAd)
 
 ## Table of contents
 

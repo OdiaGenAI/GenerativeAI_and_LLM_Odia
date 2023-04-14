@@ -9,6 +9,10 @@ repos:
     rev: 23.3.0
     hooks:
       - id: black
+  - repo: https://github.com/psf/black
+    rev: 23.3.0
+    hooks:
+      - id: black-jupyter
   - repo: https://github.com/econchick/interrogate
     rev: 1.4.0
     hooks:

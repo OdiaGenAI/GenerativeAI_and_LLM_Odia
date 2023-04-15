@@ -1,0 +1,31 @@
+# This CITATION.cff file was generated with [cffinit](https://bit.ly/cffinit)
+
+cff-version: 1.2.0
+title: "OdiaGenAI: Generative AI and LLM Initiative for the Odia Language"
+message: If you use this software, please cite it using these metadata.
+type: generic
+authors:
+  - given-names: Shantipriya
+    family-names: Parida
+  - given-names: Sambit
+    family-names: Sekhar
+  - given-names: Subhadarshi
+    family-names: Panda
+  - given-names: Soumendra Kumar
+    family-names: Sahoo
+  - given-names: Swateek
+    family-names: Jena
+  - given-names: Abhijeet
+    family-names: Parida
+  - given-names: Arghyadeep
+    family-names: Sen
+  - given-names: Satya Ranjan
+    family-names: Dash
+  - given-names: Deepak Kumar
+    family-names: Pradhan
+  - {}
+identifiers:
+  - type: url
+    value: 'https://github.com/shantipriyap/OdiaGenAI'
+repository-code: 'https://github.com/shantipriyap/OdiaGenAI'
+license: CC-BY-NC-SA-4.0

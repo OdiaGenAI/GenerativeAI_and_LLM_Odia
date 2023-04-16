@@ -2,6 +2,7 @@
 *.csv
 *.txt
 *.zip
+*.pyc
 
 !.gitignore
 !.pre-commit-config.yaml

@@ -3,17 +3,18 @@
 BASE_DIR="$(dirname "$(realpath "$0")")"
 PROJECT_DIR="$(dirname "$(realpath "${BASE_DIR}")")"
 MODEL_FILENAME="en2indic.zip"
+ENV_NAME=".odiagenai"
 
 cleanup()
 {
     echo "Cleaning up ..."
-    if [ -d "${PROJECT_DIR}/venv" ] 
+    if [ -d "${PROJECT_DIR}/${ENV_NAME}" ] 
     then
-        source ${PROJECT_DIR}/venv/bin/activate
+        source ${PROJECT_DIR}/${ENV_NAME}/bin/activate
         deactivate
     fi 
 
-    rm -rf ${PROJECT_DIR}/venv || true
+    rm -rf ${PROJECT_DIR}/${ENV_NAME} || true
     rm -rf ${PROJECT_DIR}/indicTrans || true
     rm -rf ${PROJECT_DIR}/en-indic || true
 }
@@ -21,10 +22,8 @@ cleanup()
 create_virtual_environment()
 {
     echo "Creating virtual environment ..."
-    python3 -m venv venv
-    source ${PROJECT_DIR}/venv/bin/activate
-    python3 -m pip install --upgrade pip
-    pip3 install -r ${PROJECT_DIR}/pip-requirements.txt --no-cache-dir
+    python3 -m venv ${ENV_NAME}
+    install_deps
     deactivate
 }
 
@@ -36,19 +35,15 @@ clone_repos()
     
     cd ${PROJECT_DIR}/indicTrans
     git clone https://github.com/anoopkunchukuttan/indic_nlp_resources.git
-    git clone https://github.com/anoopkunchukuttan/indic_nlp_library.git
-    git clone https://github.com/pytorch/fairseq.git
+    export INDIC_RESOURCES_PATH=${PROJECT_DIR}/indicTrans/indic_nlp_resources
 }
 
 install_deps()
 {
     echo "Installing dependencies ..."
-    source ${PROJECT_DIR}/venv/bin/activate
-    export INDIC_RESOURCES_PATH=${PROJECT_DIR}/indicTrans/indic_nlp_resources
-    cd ${PROJECT_DIR}/indicTrans/indic_nlp_library
-    python3 -m pip install ./
-    cd ${PROJECT_DIR}/indicTrans/fairseq
-    python3 -m pip install ./
+    source ${PROJECT_DIR}/${ENV_NAME}/bin/activate
+    python3 -m pip install --upgrade pip
+    pip3 install -r ${PROJECT_DIR}/pip-requirements.txt --no-cache-dir
 }
 
 download_and_unzipmodel()

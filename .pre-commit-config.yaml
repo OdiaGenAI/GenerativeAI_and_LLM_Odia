@@ -5,14 +5,11 @@ repos:
       - id: check-yaml
       - id: check-json
       - id: check-merge-conflict
-  - repo: https://github.com/ambv/black
-    rev: 23.3.0
-    hooks:
-      - id: black
   - repo: https://github.com/psf/black
     rev: 23.3.0
     hooks:
       - id: black-jupyter
+      - id: black
   - repo: https://github.com/econchick/interrogate
     rev: 1.4.0
     hooks:

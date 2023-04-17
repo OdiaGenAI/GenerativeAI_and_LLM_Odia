@@ -1,7 +1,7 @@
 #!../venv/bin/python3
 """translate_to_indic_lang - translates to indic languages"""
 
-import os, json, sys
+import os, json
 from concurrent.futures import ThreadPoolExecutor
 
 from helpers import Helpers
@@ -111,10 +111,13 @@ class TranslateToIndicLang:
             print("Successfully translated - " + output_fname)
 
     def run_translation(self) -> None:
+        """Runs the translation code"""
         data = self.__read_input_file()
         print("Working with - " + str(len(data)) + " elements ...")
 
-        # with ThreadPoolExecutor(max_workers=self.MAX_PARALLEL_REQUESTS) as executor:
+        # with ThreadPoolExecutor(
+        #     max_workers=int(self.MAX_PARALLEL_REQUESTS)
+        # ) as executor:
         #     futures = {
         #         executor.submit(self.translate_and_save, item, i)
         #         for i, item in enumerate(data)
@@ -122,9 +125,9 @@ class TranslateToIndicLang:
 
         for i, item in enumerate(data):
             self.translate_and_save(item, i)
-            sys.exit()
 
     def run(self):
+        """Runs the app"""
         self.__initialize_setup()
         self.__initiate_model()
         self.run_translation()

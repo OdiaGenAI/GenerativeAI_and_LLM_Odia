@@ -1,11 +1,14 @@
 # OdiaGenAI: Generative AI and LLM Initiative for the Odia Language
 
+[![HuggingFace badge](https://img.shields.io/badge/%F0%9F%A4%97HuggingFace-Join-yellow)](https://huggingface.co/OdiaGenAI)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
 <p align="center">
   <img src="odiagen_new_logo.png" width="250" height="250">
 </p>
 
-[![HuggingFace badge](https://img.shields.io/badge/%F0%9F%A4%97HuggingFace-Join-yellow)](https://huggingface.co/OdiaGenAI)
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![Twitter](https://img.shields.io/badge/Follow@OdiaGenAI-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/OdiaGenAI)
+[![Discord](https://img.shields.io/badge/Join_OdiaGenAI_Discord_Channel-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/bqrzkYAd)
 
 ## Table of contents
 

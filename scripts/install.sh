@@ -23,7 +23,6 @@ create_virtual_environment()
 {
     echo "Creating virtual environment ..."
     python3 -m venv ${ENV_NAME}
-    install_deps
     deactivate
 }
 
@@ -35,7 +34,8 @@ clone_repos()
     
     cd ${PROJECT_DIR}/indicTrans
     git clone https://github.com/anoopkunchukuttan/indic_nlp_resources.git
-    export INDIC_RESOURCES_PATH=${PROJECT_DIR}/indicTrans/indic_nlp_resources
+    git clone https://github.com/anoopkunchukuttan/indic_nlp_library.git
+    git clone https://github.com/pytorch/fairseq.git
 }
 
 install_deps()
@@ -44,6 +44,11 @@ install_deps()
     source ${PROJECT_DIR}/${ENV_NAME}/bin/activate
     python3 -m pip install --upgrade pip
     pip3 install -r ${PROJECT_DIR}/pip-requirements.txt --no-cache-dir
+    export INDIC_RESOURCES_PATH=${PROJECT_DIR}/indicTrans/indic_nlp_resources
+    cd ${PROJECT_DIR}/indicTrans/indic_nlp_library
+    python3 -m pip install ./
+    cd ${PROJECT_DIR}/indicTrans/fairseq
+    python3 -m pip install ./
 }
 
 download_and_unzipmodel()

@@ -3,6 +3,7 @@
 BASE_DIR="$(dirname "$(realpath "$0")")"
 SCRIPTS_DIR="$(dirname "$(dirname "$(realpath "$0")")")"
 PROJECT_DIR="$(dirname "$(dirname "$(realpath "${BASE_DIR}")")")"
+ENV_NAME=".odiagenai"
 
 copy_required_files()
 {
@@ -13,7 +14,7 @@ copy_required_files()
 activate_virtual_environment()
 {
     echo "Activating virtual environment ..."
-    source ${PROJECT_DIR}/venv/bin/activate
+    source ${PROJECT_DIR}/${ENV_NAME}/bin/activate
 }
 
 copy_required_files

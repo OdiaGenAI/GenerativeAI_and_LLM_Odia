@@ -56,6 +56,8 @@ The data, code, and models will be available to the public for research and non-
 
 3. Creating the config file
 
+- Do remember that all entries to config file should be made without being surrounded by any quotes
+
 - Create a file name `.config.ini` from the sample file `config.ini.sample`
 
 - Fill the relevant informations:

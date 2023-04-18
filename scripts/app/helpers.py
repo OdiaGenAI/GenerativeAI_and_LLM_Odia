@@ -1,7 +1,9 @@
-"""Helpers - hosts all helper functions"""
 #!../venv/bin/python3
+"""Helpers - hosts all helper functions"""
 
-import configparser, subprocess, sys
+import configparser
+import subprocess
+import sys
 
 
 class Helpers:
@@ -17,7 +19,7 @@ class Helpers:
             with open(filename, encoding="utf8") as cfg_file:
                 config.read_file(cfg_file)
             return config[section]
-        except FileNotFoundError as fnf:
+        except FileNotFoundError:
             print(
                 "Config file not found. Please create a .config.ini file under scripts/app"
             )
@@ -30,7 +32,7 @@ class Helpers:
             with open(filename, encoding="utf8") as cfg_file:
                 config.read_file(cfg_file)
             return config
-        except FileNotFoundError as fnf:
+        except FileNotFoundError:
             print(
                 "Config file not found. Please create a .config.ini file under scripts/app"
             )

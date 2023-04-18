@@ -1,8 +1,10 @@
 #!../venv/bin/python3
 """translate_to_indic_lang - translates to indic languages"""
 
-import os, json
-from concurrent.futures import ThreadPoolExecutor
+import os
+import json
+
+# from concurrent.futures import ThreadPoolExecutor
 
 from helpers import Helpers
 from inference.engine import Model
@@ -120,7 +122,7 @@ class TranslateToIndicLang:
             translated_item = self.translate_item(item)
             self.save_item(translated_item, output_fname)
             print("Successfully translated - " + output_fname)
-        except Exception as e:
+        except Exception:
             failure_fname = (
                 self.TRANSLATED_OUTPUT_LOC + "/error/" + f"translated_{i}.json"
             )

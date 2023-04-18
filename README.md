@@ -48,11 +48,23 @@ The data, code, and models will be available to the public for research and non-
   pip3 install pre-commit
 ```
 
-2. Run once the below command inside your project home
+2. Prepping the environment
 
 ```bash
-  pre-commit install
+  ./scripts/install.sh
 ```
+
+3. Creating the config file
+
+- Do remember that all entries to config file should be made without being surrounded by any quotes
+
+- Create a file name `.config.ini` from the sample file `config.ini.sample`
+
+- Fill the relevant informations:
+
+  - **TARGET_URL** is the direct JSON URL that could be gotten from the raw github
+
+  - **CLEAN_START** is specifically beneficial when there's re-runs, you'll not lose your previous outputs.
 
 ## Why OdiaGenAI
 
@@ -103,7 +115,9 @@ There are several use cases of OdiaGenAI LLMs. Three primary domains relating to
 Please contact Shantipriya Parida (shantipriya.parida@gmail.com) for any contribution/support/usage.
 
 ## Citation
+
 If you find this repository useful, please consider giving ⭐ and citing:
+
 ```
 @misc{OdiaGenAI,
   author = {Shantipriya Parida and Sambit Sekhar and Subhadarshi Panda and Soumendra Kumar Sahoo and Swateek Jena and Abhijeet Parida and Arghyadeep Sen and Satya Ranjan Dash and Deepak Kumar Pradhan},
@@ -125,5 +139,3 @@ This work is licensed under a
 [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
-
-

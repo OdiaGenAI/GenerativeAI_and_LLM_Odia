@@ -1,0 +1,7 @@
+sacremoses==0.0.53
+subword-nmt==0.3.8
+tensorboardX==2.6
+tqdm==4.65.0
+mosestokenizer==1.2.1
+fairseq
+indic-nlp-library

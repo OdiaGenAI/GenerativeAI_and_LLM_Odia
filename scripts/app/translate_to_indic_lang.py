@@ -22,8 +22,14 @@ class TranslateToIndicLang:
         self.WORK_DIR = os.getcwd() + "/" + ".work_dir"
         self.OUTPUT_FOLDERNAME = "output"
         self.INPUT_FILENAME = "input.json"
+        self.MERGED_OUTPUT_FILENAME = "output.json"
         self.INPUT_FILELOC = self.WORK_DIR + "/" + self.INPUT_FILENAME
         self.OUTPUT_FOLDERLOC = self.WORK_DIR + "/" + self.OUTPUT_FOLDERNAME
+        self.TRANSLATED_OUTPUT_LOC = self.OUTPUT_FOLDERLOC + "/" + "translated"
+        self.MERGED_OUTPUT_LOC = self.OUTPUT_FOLDERLOC + "/" + "merged"
+        self.MERGED_OUTPUT_FILENAME = (
+            self.MERGED_OUTPUT_LOC + "/" + self.MERGED_OUTPUT_FILENAME
+        )
 
     def __initiate_model(self) -> None:
         """Instantiate Model"""
@@ -39,6 +45,10 @@ class TranslateToIndicLang:
         print("Creating work environment ...")
         self.helperFuncs.execute_shell_command("mkdir -p " + self.WORK_DIR)
         self.helperFuncs.execute_shell_command("mkdir -p " + self.OUTPUT_FOLDERLOC)
+        self.helperFuncs.execute_shell_command(
+            "mkdir -p " + self.TRANSLATED_OUTPUT_LOC + "/{data,error}"
+        )
+        self.helperFuncs.execute_shell_command("mkdir -p " + self.MERGED_OUTPUT_LOC)
 
     def __download_target(self) -> None:
         """Downloading target"""
@@ -102,18 +112,45 @@ class TranslateToIndicLang:
 
     def translate_and_save(self, item, i):
         """translating and saving to file"""
-        output_fname = self.OUTPUT_FOLDERLOC + "/" + f"translated_{i}.json"
+        output_fname = self.TRANSLATED_OUTPUT_LOC + "/data/" + f"translated_{i}.json"
         if os.path.isfile(output_fname):
             return
-        else:
+
+        try:
             translated_item = self.translate_item(item)
             self.save_item(translated_item, output_fname)
             print("Successfully translated - " + output_fname)
+        except Exception as e:
+            failure_fname = (
+                self.TRANSLATED_OUTPUT_LOC + "/error/" + f"translated_{i}.json"
+            )
+            print("Error in translation - " + f"translated_{i}.json")
+            with open(
+                failure_fname,
+                "a",
+            ):
+                pass
 
-    def run_translation(self) -> None:
+    def merge_json_files(self, data_cnt):
+        merged_data = []
+        for i in range(data_cnt):
+            file_path = os.path.join(self.TRANSLATED_OUTPUT_LOC, f"translated_{i}.json")
+
+            if not os.path.isfile(file_path):
+                continue
+
+            with open(file_path, "r", encoding="utf-8") as file:
+                data = json.load(file)
+                merged_data.append(data)
+
+        with open(self.MERGED_OUTPUT_FILENAME, "w", encoding="utf-8") as file:
+            json.dump(merged_data, file, indent=2, ensure_ascii=False)
+
+    def run_translation(self) -> int:
         """Runs the translation code"""
         data = self.__read_input_file()
-        print("Working with - " + str(len(data)) + " elements ...")
+        data_cnt = len(data)
+        print("Working with - " + str(data_cnt) + " elements ...")
 
         # with ThreadPoolExecutor(
         #     max_workers=int(self.MAX_PARALLEL_REQUESTS)
@@ -125,12 +162,14 @@ class TranslateToIndicLang:
 
         for i, item in enumerate(data):
             self.translate_and_save(item, i)
+        return data_cnt
 
     def run(self):
         """Runs the app"""
         self.__initialize_setup()
         self.__initiate_model()
-        self.run_translation()
+        data_cnt = self.run_translation()
+        self.merge_json_files(data_cnt)
 
 
 TranslateToIndicLang().run()

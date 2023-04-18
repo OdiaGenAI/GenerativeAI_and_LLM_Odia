@@ -122,16 +122,16 @@ class TranslateToIndicLang:
             translated_item = self.translate_item(item)
             self.save_item(translated_item, output_fname)
             print("Successfully translated - " + output_fname)
-        except Exception:
+        except Exception as e:
             failure_fname = (
-                self.TRANSLATED_OUTPUT_LOC + "/error/" + f"translated_{i}.json"
+                self.TRANSLATED_OUTPUT_LOC + "/error/" + f"error_in_translation_{i}.txt"
             )
-            print("Error in translation - " + f"translated_{i}.json")
+            print("Error in translation - " + f"error_in_translation_{i}.txt")
             with open(
                 failure_fname,
                 "a",
-            ):
-                pass
+            ) as f:
+                f.write(e)
 
     def merge_json_files(self, data_cnt):
         merged_data = []

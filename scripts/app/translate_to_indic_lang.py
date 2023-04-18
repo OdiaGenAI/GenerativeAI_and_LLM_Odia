@@ -4,7 +4,7 @@
 import os
 import json
 
-# from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor
 
 from helpers import Helpers
 from inference.engine import Model
@@ -136,7 +136,9 @@ class TranslateToIndicLang:
     def merge_json_files(self, data_cnt):
         merged_data = []
         for i in range(data_cnt):
-            file_path = os.path.join(self.TRANSLATED_OUTPUT_LOC, f"translated_{i}.json")
+            file_path = os.path.join(
+                self.TRANSLATED_OUTPUT_LOC + "/data/", f"translated_{i}.json"
+            )
 
             if not os.path.isfile(file_path):
                 continue
@@ -154,16 +156,14 @@ class TranslateToIndicLang:
         data_cnt = len(data)
         print("Working with - " + str(data_cnt) + " elements ...")
 
-        # with ThreadPoolExecutor(
-        #     max_workers=int(self.MAX_PARALLEL_REQUESTS)
-        # ) as executor:
-        #     futures = {
-        #         executor.submit(self.translate_and_save, item, i)
-        #         for i, item in enumerate(data)
-        #     }
+        with ThreadPoolExecutor(
+            max_workers=int(self.MAX_PARALLEL_REQUESTS)
+        ) as executor:
+            {
+                executor.submit(self.translate_and_save, item, i)
+                for i, item in enumerate(data)
+            }
 
-        for i, item in enumerate(data):
-            self.translate_and_save(item, i)
         return data_cnt
 
     def run(self):

@@ -33,6 +33,7 @@ clone_repos()
     git clone https://github.com/AI4Bharat/indicTrans.git 
     
     cd ${PROJECT_DIR}/indicTrans
+    rm -rf ${PROJECT_DIR}/indicTrans/.git
     git clone https://github.com/anoopkunchukuttan/indic_nlp_resources.git
     git clone https://github.com/anoopkunchukuttan/indic_nlp_library.git
     git clone https://github.com/pytorch/fairseq.git

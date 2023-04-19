@@ -16,11 +16,11 @@
   - [Table of contents](#table-of-contents)
   - [About](#about)
   - [Objective](#objective)
-  - [Getting Started With Development](#getting-started-with-development)
   - [Why OdiaGenAI](#why-odiagenai)
   - [What are the focus research areas of OdiaGenAI](#what-are-the-focus-research-areas-of-odiagenai)
   - [Who can use OdiaGenAI LLMs](#who-can-use-odiagenai-llms)
   - [What are the use cases of OdiaGenAI LLMs](#what-are-the-use-cases-of-odiagenai-llms)
+  - [Apps](#apps)
   - [Contributors](#contributors)
   - [Contact](#contact)
   - [Citation](#citation)
@@ -71,6 +71,10 @@ There are several use cases of OdiaGenAI LLMs. Three primary domains relating to
 - Tourism
 - Agriculture
 - Industrial Application
+
+## Apps
+
+- [Translate to Indic Languages From English](apps/translate-to-indic-lang/README.md)
 
 ## Contributors
 

@@ -22,6 +22,21 @@ This app helps in translating `.json` and `.jsonl` datasets from english to indi
 
 - Create a file name `.config.ini` from the sample file `config.ini.sample`. More details about config file [here](#config-file).
 
+4. Running app - From the base directory of the repo execute the following commands:
+
+```bash
+  ./apps/translate-to-indic-lang/run.sh
+```
+
+5. The **output** folder, from the base directory of the repo.
+
+```bash
+  cd indicTrans/.work_dir/output/merged
+  ls output.json
+```
+
+Any possible errors are logger under `indicTrans/.work_dir/output/translated/errors` as individual files.
+
 ### Config File
 
 - **TARGET_URL** is the direct JSON/JSONL URL that could be gotten from **View Raw** feature for Git repos

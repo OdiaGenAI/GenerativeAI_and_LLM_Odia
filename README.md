@@ -88,7 +88,7 @@ There are several use cases of OdiaGenAI LLMs. Three primary domains relating to
 - [Dr. Satya Ranjan Dash](https://ksca.kiit.ac.in/profiles/satya-ranjan-dash/)
 - [Deepak Kumar Pradhan](https://www.linkedin.com/in/dkpradhan/)
 
-*About our logo:* The critically endangered [Olive Ridley](https://roundglasssustain.com/photostories/olive-ridley-turtles-endangered) sea turtle is the world's smallest and most prevalent marine turtle. Travel thousands of kilometers in the ocean for nesting. The Gahirmatha Marine Sanctuary in Odisha is the largest known mass nesting rookery for olive ridley sea turtles worldwide.
+*About our logo:* The critically endangered [Olive Ridley](https://roundglasssustain.com/photostories/olive-ridley-turtles-endangered) sea turtle is the world's smallest and most prevalent marine turtle. Travel thousands of kilometers in the ocean for nesting. The Gahirmatha Marine Sanctuary in [Odisha](https://en.wikipedia.org/wiki/Odisha) is the largest known mass nesting rookery for olive ridley sea turtles worldwide.
 
 ## Contact
 

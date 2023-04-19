@@ -16,11 +16,11 @@
   - [Table of contents](#table-of-contents)
   - [About](#about)
   - [Objective](#objective)
-  - [Getting Started With Development](#getting-started-with-development)
   - [Why OdiaGenAI](#why-odiagenai)
   - [What are the focus research areas of OdiaGenAI](#what-are-the-focus-research-areas-of-odiagenai)
   - [Who can use OdiaGenAI LLMs](#who-can-use-odiagenai-llms)
   - [What are the use cases of OdiaGenAI LLMs](#what-are-the-use-cases-of-odiagenai-llms)
+  - [Apps](#apps)
   - [Contributors](#contributors)
   - [Contact](#contact)
   - [Citation](#citation)
@@ -39,32 +39,6 @@ The OdiaGenAI aims to
 3. Instruct LLM (Odia).
 
 The data, code, and models will be available to the public for research and non-commercial purposes.
-
-## Getting Started With Development
-
-1. Install `pre-commit` library on your development setup
-
-```bash
-  pip3 install pre-commit
-```
-
-2. Prepping the environment
-
-```bash
-  ./scripts/install.sh
-```
-
-3. Creating the config file
-
-- Do remember that all entries to config file should be made without being surrounded by any quotes
-
-- Create a file name `.config.ini` from the sample file `config.ini.sample`
-
-- Fill the relevant informations:
-
-  - **TARGET_URL** is the direct JSON URL that could be gotten from the raw github
-
-  - **CLEAN_START** is specifically beneficial when there's re-runs, you'll not lose your previous outputs.
 
 ## Why OdiaGenAI
 
@@ -97,6 +71,10 @@ There are several use cases of OdiaGenAI LLMs. Three primary domains relating to
 - Tourism
 - Agriculture
 - Industrial Application
+
+## Apps
+
+- [Translate to Indic Languages From English](apps/translate-to-indic-lang/README.md)
 
 ## Contributors
 

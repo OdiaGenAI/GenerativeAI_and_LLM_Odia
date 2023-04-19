@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
 
 BASE_DIR="$(dirname "$(realpath "$0")")"
-SCRIPTS_DIR="$(dirname "$(dirname "$(realpath "$0")")")"
+APPS_DIR="$(dirname "$(dirname "$(realpath "$0")")")"
 PROJECT_DIR="$(dirname "$(dirname "$(realpath "${BASE_DIR}")")")"
 ENV_NAME=".odiagenai"
 
 copy_required_files()
 {
     echo "Copying required files ..."
-    # cp ${SCRIPTS_DIR}/translations/sample.py ${PROJECT_DIR}/indicTrans
-    cp ${SCRIPTS_DIR}/app/*.py ${PROJECT_DIR}/indicTrans
-    cp ${SCRIPTS_DIR}/app/.config.ini ${PROJECT_DIR}/indicTrans 2>/dev/null
+    # cp ${APPS_DIR}/sample.py ${PROJECT_DIR}/indicTrans
+    cp ${APPS_DIR}/translate-to-indic-lang/*.py ${PROJECT_DIR}/indicTrans
+    cp ${APPS_DIR}/translate-to-indic-lang/.config.ini ${PROJECT_DIR}/indicTrans 2>/dev/null
 }
 
 activate_virtual_environment()

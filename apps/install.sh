@@ -23,6 +23,7 @@ create_virtual_environment()
 {
     echo "Creating virtual environment ..."
     python3 -m venv ${ENV_NAME}
+    source ${PROJECT_DIR}/${ENV_NAME}/bin/activate
     deactivate
 }
 

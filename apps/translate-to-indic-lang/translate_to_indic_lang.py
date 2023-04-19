@@ -15,10 +15,10 @@ class TranslateToIndicLang:
         """Init Function for class"""
         self.model = None
         self.helperFuncs = Helpers()
+        self.SRC_LANG = "en"
         self.cfg = self.helperFuncs.read_configfile(".config.ini")
         self.CLEAN_START = self.cfg["APP"].getboolean("CLEAN_START")
         self.TARGET_URL = self.cfg["APP"].get("TARGET_URL")
-        self.SRC_LANG = self.cfg["APP"].get("SRC_LANG")
         self.TARGET_LANG = self.cfg["APP"].get("TARGET_LANG")
         self.MAX_PARALLEL_REQUESTS = self.cfg["APP"].get("MAX_PARALLEL_REQUESTS")
         self.WORK_DIR = os.getcwd() + "/" + ".work_dir"

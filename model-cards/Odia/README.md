@@ -1,6 +1,6 @@
 # [OdiaGen: OdiaGenAI is a collaborative initiative that conducts research on Generative AI and LLM for the Odia Language ] (https://www.odiagenai.org)
 
-This repository is for OdiaGen's project training LLM on Odia. For detailed info on the models, their training, and their behavior, please see [our Blog]().
+This repository is for OdiaGen's project training LLM on Odia. 
 
 ## Models
 

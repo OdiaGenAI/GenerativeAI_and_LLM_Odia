@@ -14,6 +14,7 @@
 
 - [Odia Generative AI (OdiaGen)](#odia-generative-ai-odiagen)
   - [Table of contents](#table-of-contents)
+  - [Latest Updates](latest_updates)
   - [About](#about)
   - [Objective](#objective)
   - [Why OdiaGenAI](#why-odiagenai)
@@ -25,6 +26,9 @@
   - [Contact](#contact)
   - [Citation](#citation)
   - [License](#license)
+
+## Latest Updates
+- **[12thApril2023]** We released our first experiment Odia LLM [odiagenAI-model-v0](https://huggingface.co/OdiaGenAI/odiagenAI-model-v0). Please go through our [Blog](https://www.odiagenai.org/blog/odiagenai-released-the-first-llm-for-the-low-resource-odia-language) for more details.    
 
 ## About
 

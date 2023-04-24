@@ -13,7 +13,7 @@ This app helps in translating `.json` and `.jsonl` datasets from english to indi
 2. Prepping the environment - From the base directory of the repo execute the following commands:
 
 ```bash
-  ./apps/install.sh
+  ./install.sh
 ```
 
 3. Creating the config file
@@ -25,7 +25,7 @@ This app helps in translating `.json` and `.jsonl` datasets from english to indi
 4. Running app - From the base directory of the repo execute the following commands:
 
 ```bash
-  ./apps/translate-to-indic-lang/run.sh
+  ./translate-to-indic-lang/run.sh
 ```
 
 5. The **output** folder, from the base directory of the repo.
@@ -59,3 +59,11 @@ Any possible errors are logger under `indicTrans/.work_dir/output/translated/err
 - **MAX_PARALLEL_REQUESTS** the number of threads that could run in parallel to aid in translation
 
 - **CLEAN_START** can be either **True** or **False**. If set to **False** when there are re-runs, you'll not lose your previous outputs. When set to **True**, and you run the app, it deletes the previous work directory and starts from scratch.
+
+### Developer Hints
+
+1. Check the number of files translated, when the app is still running. From the project's home directory run the following command.
+
+```bash
+  ls indicTrans/.work_dir/output/translated/data | wc -l
+```

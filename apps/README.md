@@ -66,6 +66,7 @@ Any possible errors are logger under `indicTrans/.work_dir/output/translated/err
 
 | Package | Version |
 | :-----: | :-----: |
+|  wget   |   any   |
 | Python  |   3.9   |
 
 ### Developer Hints

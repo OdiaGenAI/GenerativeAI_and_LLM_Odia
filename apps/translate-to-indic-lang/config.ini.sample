@@ -1,5 +1,5 @@
 [APP]
-TARGET_URL=
+TARGET_URL=https://raw.githubusercontent.com/teknium1/GPTeacher/main/Roleplay/roleplay-simple-deduped-roleplay-dataset.json						
 TARGET_LANG=or
 MAX_PARALLEL_REQUESTS=50
 CLEAN_START=False

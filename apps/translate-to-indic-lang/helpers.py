@@ -21,7 +21,7 @@ class Helpers:
             return config[section]
         except FileNotFoundError:
             print(
-                "Config file not found. Please create a .config.ini file under scripts/app"
+                "Config file not found. Please create a .config.ini file under translate-to-indic-lang/"
             )
             sys.exit(1)
 
@@ -34,7 +34,7 @@ class Helpers:
             return config
         except FileNotFoundError:
             print(
-                "Config file not found. Please create a .config.ini file under scripts/app"
+                "Config file not found. Please create a .config.ini file under translate-to-indic-lang/"
             )
             sys.exit(1)
 

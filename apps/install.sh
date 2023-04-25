@@ -22,7 +22,7 @@ cleanup()
 create_virtual_environment()
 {
     echo "Creating virtual environment ..."
-    python3 -m venv ${ENV_NAME}
+    python3.9 -m venv ${PROJECT_DIR}/${ENV_NAME}
     source ${PROJECT_DIR}/${ENV_NAME}/bin/activate
     deactivate
 }
@@ -59,7 +59,7 @@ download_and_unzipmodel()
     if [ ! -f "${PROJECT_DIR}/${MODEL_FILENAME}" ] 
     then
         echo "Unavailable on your local, need to download."
-        curl https://ai4b-public-nlu-nlg.objectstore.e2enetworks.net/en2indic.zip --output ${PROJECT_DIR}/en2indic.zip
+        wget https://ai4b-public-nlu-nlg.objectstore.e2enetworks.net/en2indic.zip -P ${PROJECT_DIR} -O en2indic.zip
     fi
     echo "Unzipping Model ..."
     unzip ${PROJECT_DIR}/${MODEL_FILENAME} -d ${PROJECT_DIR}

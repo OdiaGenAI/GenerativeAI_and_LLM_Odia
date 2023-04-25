@@ -4,31 +4,33 @@ This app helps in translating `.json` and `.jsonl` datasets from english to indi
 
 ## Getting Started With Development
 
-1. Install `pre-commit` library on your development setup
+1. Ensure you meet the versions requirements, mentioned [here](#versions)
+
+2. Install `pre-commit` library on your development setup
 
 ```bash
   pip3 install pre-commit
 ```
 
-2. Prepping the environment - From the base directory of the repo execute the following commands:
+3. Prepping the environment - From the base directory of the repo execute the following commands:
 
 ```bash
   ./install.sh
 ```
 
-3. Creating the config file
+4. Creating the config file
 
 - Do remember that all entries to config file should be made without being surrounded by any quotes
 
 - Create a file name `.config.ini` from the sample file `config.ini.sample`. More details about config file [here](#config-file).
 
-4. Running app - From the base directory of the repo execute the following commands:
+5. Running app - From the base directory of the repo execute the following commands:
 
 ```bash
   ./translate-to-indic-lang/run.sh
 ```
 
-5. The **output** folder, from the base directory of the repo.
+6. The **output** folder, from the base directory of the repo.
 
 ```bash
   cd indicTrans/.work_dir/output/merged
@@ -59,6 +61,12 @@ Any possible errors are logger under `indicTrans/.work_dir/output/translated/err
 - **MAX_PARALLEL_REQUESTS** the number of threads that could run in parallel to aid in translation
 
 - **CLEAN_START** can be either **True** or **False**. If set to **False** when there are re-runs, you'll not lose your previous outputs. When set to **True**, and you run the app, it deletes the previous work directory and starts from scratch.
+
+### Versions
+
+| Package | Version |
+| :-----: | :-----: |
+| Python  |   3.9   |
 
 ### Developer Hints
 

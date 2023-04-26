@@ -77,7 +77,7 @@ class TranslateToIndicLang:
         """Downloading target"""
         print("Downloading target ...")
         self.helperFuncs.execute_shell_command(
-            "curl "
+            "curl -L "
             + self.TARGET_URL
             + " --output "
             + self.WORK_DIR
@@ -85,7 +85,7 @@ class TranslateToIndicLang:
             + self.INPUT_FILENAME
         )
 
-    def __read_input_file(self) -> None:
+    def __read_input_file(self) -> list:
         """Collecting meta information about data"""
         data = []
 
@@ -105,7 +105,7 @@ class TranslateToIndicLang:
             self.__download_target()
             os.environ["PYTHONPATH"] = os.getcwd() + "/fairseq/"
 
-    def translate_text(self, value):
+    def translate_text(self, value) -> str:
         """translate text from source to target language"""
         if "\n" in value:
             replace_dn = value.replace("\n\n", "\n")
@@ -120,7 +120,7 @@ class TranslateToIndicLang:
             )
         return response.strip()
 
-    def translate_item(self, item) -> None:
+    def translate_item(self, item) -> dict:
         """translate item"""
         translated_item = {}
         for key, value in item.items():
@@ -133,33 +133,35 @@ class TranslateToIndicLang:
                 translated_item["english_" + key] = ""
         return translated_item
 
-    def save_item(self, item, filename):
+    def save_item(self, item, filename) -> None:
         """Save translated file"""
         with open(filename, "w") as f:
             json.dump(item, f, ensure_ascii=False, indent=4)
 
-    def translate_and_save(self, item, i):
+    def translate_and_save(self, item, i) -> None:
         """translating and saving to file"""
         output_fname = self.TRANSLATED_OUTPUT_DATA_LOC + "/" + f"translated_{i}.json"
-        if os.path.isfile(output_fname):
+        failure_fname = (
+            self.TRANSLATED_OUTPUT_ERR_LOC + "/" + f"error_in_translation_{i}.txt"
+        )
+        if os.path.isfile(output_fname) or os.path.isfile(failure_fname):
             return
+
+        print("Evaluating element number - " + f"{i}")
 
         try:
             translated_item = self.translate_item(item)
             self.save_item(translated_item, output_fname)
             print("Successfully translated - " + output_fname)
         except Exception as e:
-            failure_fname = (
-                self.TRANSLATED_OUTPUT_ERROR_LOC + "/" + f"error_in_translation_{i}.txt"
-            )
             print("Error in translation - " + f"error_in_translation_{i}.txt")
             with open(
                 failure_fname,
                 "a",
             ) as f:
-                f.write(e)
+                f.write(repr(e))
 
-    def merge_json_files(self, data_cnt):
+    def merge_json_files(self, data_cnt) -> None:
         merged_data = []
         for i in range(data_cnt):
             file_path = os.path.join(
@@ -192,7 +194,7 @@ class TranslateToIndicLang:
 
         return data_cnt
 
-    def run(self):
+    def run(self) -> None:
         """Runs the app"""
         self.__initialize_setup()
         self.__initiate_model()

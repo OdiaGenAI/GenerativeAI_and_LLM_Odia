@@ -141,9 +141,12 @@ class TranslateToIndicLang:
     def translate_and_save(self, item, i):
         """translating and saving to file"""
         output_fname = self.TRANSLATED_OUTPUT_DATA_LOC + "/" + f"translated_{i}.json"
-        if os.path.isfile(output_fname):
+        failure_fname = (
+            self.TRANSLATED_OUTPUT_ERR_LOC + "/" + f"error_in_translation_{i}.txt"
+        )
+        if os.path.isfile(output_fname) or os.path.isfile(failure_fname):
             return
-        
+
         print("Evaluating element number - " + f"{i}")
 
         try:
@@ -151,9 +154,6 @@ class TranslateToIndicLang:
             self.save_item(translated_item, output_fname)
             print("Successfully translated - " + output_fname)
         except Exception as e:
-            failure_fname = (
-                self.TRANSLATED_OUTPUT_ERR_LOC + "/" + f"error_in_translation_{i}.txt"
-            )
             print("Error in translation - " + f"error_in_translation_{i}.txt")
             with open(
                 failure_fname,

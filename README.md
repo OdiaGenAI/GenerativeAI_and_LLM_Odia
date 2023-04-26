@@ -98,6 +98,9 @@ There are several use cases of OdiaGenAI LLMs. Three primary domains relating to
 
 Please contact Shantipriya Parida (shantipriya.parida@gmail.com) for any contribution/support/usage.
 
+## Supporters
+[Odias in Machine Learning](https://www.odisha.ml/)
+
 ## Citation
 
 If you find this repository useful, please consider giving ⭐ and citing:

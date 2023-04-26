@@ -77,7 +77,7 @@ class TranslateToIndicLang:
         """Downloading target"""
         print("Downloading target ...")
         self.helperFuncs.execute_shell_command(
-            "curl "
+            "curl -L "
             + self.TARGET_URL
             + " --output "
             + self.WORK_DIR
@@ -143,6 +143,8 @@ class TranslateToIndicLang:
         output_fname = self.TRANSLATED_OUTPUT_DATA_LOC + "/" + f"translated_{i}.json"
         if os.path.isfile(output_fname):
             return
+        
+        print("Evaluating element number - " + f"{i}")
 
         try:
             translated_item = self.translate_item(item)
@@ -150,14 +152,14 @@ class TranslateToIndicLang:
             print("Successfully translated - " + output_fname)
         except Exception as e:
             failure_fname = (
-                self.TRANSLATED_OUTPUT_ERROR_LOC + "/" + f"error_in_translation_{i}.txt"
+                self.TRANSLATED_OUTPUT_ERR_LOC + "/" + f"error_in_translation_{i}.txt"
             )
             print("Error in translation - " + f"error_in_translation_{i}.txt")
             with open(
                 failure_fname,
                 "a",
             ) as f:
-                f.write(e)
+                f.write(repr(e))
 
     def merge_json_files(self, data_cnt):
         merged_data = []

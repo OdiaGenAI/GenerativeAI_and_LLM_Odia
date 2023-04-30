@@ -25,7 +25,7 @@
 
 [1] [Large Language Models from scratch: Part 1](https://www.youtube.com/watch?v=lnA9DMvHtfI&t=264s)\
 [2] [Large Language Models: Part 2](https://www.youtube.com/watch?v=YDiSFS-yHwk&t=87s)\
-[3] [5 Tips and Misconceptions about Finetuning GPT-3](5 Tips and Misconceptions about Finetuning GPT-3)\
+[3] [5 Tips and Misconceptions about Finetuning GPT-3](https://www.youtube.com/watch?v=VfAsu_dxw0g)\
 [4] [How to fine-tune GPT-3 without code](https://www.youtube.com/watch?v=VfAsu_dxw0g)\
 [5] [How to Fine Tune GPT3 | Beginner's Guide to Building Businesses w/ GPT-3](https://www.youtube.com/watch?v=PB3JY89SxM0)\
 [6] [GPT-3 Fine Tuning Prompts & Code](https://docs.google.com/document/d/1jJbk61grxYZV2qbBNtNnVaeEFsqMskWY5Uh6ELlqiB4/edit)\

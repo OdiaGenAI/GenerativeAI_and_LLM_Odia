@@ -40,8 +40,26 @@ The capabilities of a generative AI system depend on the modality or type of the
 **Video:** Generative AI trained on annotated video can generate temporally-coherent video clips. Examples include Gen1 by RunwayML and Make-A-Video by Meta Platforms.\
 **Multimodal:** A generative AI system can be built from multiple generative models, or one model trained on multiple types of data. For example, one version of OpenAI's GPT-4 accepts both text and image inputs.\
 
+### What are the advantages of Generative AI?
+Some of the advantages of generative AI are [[4]](https://speakai.co/advantages-of-generative-ai/):
 
+**Increased Efficiency:** Generative AI can be used to automate tasks that would otherwise require manual labor. This can help businesses save time and money, as well as increase efficiency. For example, generative AI can be used to generate images and videos quickly and accurately, which can be used in marketing campaigns or other projects.\
+**Improved Quality:** Generative AI can help improve the quality of content generated. It can be used to create high-quality images and videos that are more visually appealing than those created manually. Additionally, generative AI can be used to generate text that is more accurate and relevant than text created by humans.\
+**Faster Results:** Generative AI can help businesses get results faster than they would with manual labor. For example, generative AI can be used to generate images and videos in a fraction of the time it would take a human to do the same task. This can help businesses get their projects done faster and more efficiently.\
+**Cost Savings:** Generative AI can help businesses save money. By automating tasks, businesses can reduce their labor costs and save money. Additionally, generative AI can help businesses reduce costs associated with creating content, such as images and videos.
+**Improved Decision Making:** Generative AI can help businesses make better decisions. By using generative AI, businesses can generate data that can be used to make better decisions. For example, generative AI can be used to generate data that can be used to make decisions about marketing campaigns or product development.\
+**Increased Creativity:** Generative AI can help businesses be more creative. By using generative AI, businesses can generate new ideas and concepts that can be used to create new products or services. Additionally, generative AI can be used to generate images and videos that are more visually appealing than those created manually.\
+**Improved Customer Experience:** Generative AI can help businesses improve their customer experience. By using generative AI, businesses can generate content that is more accurate and relevant to their customers. This can help businesses create a better customer experience and increase customer satisfaction.
 
+### What are the limitations of Generative AI?
+Some of the advantages of generative AI are [[5]](https://fact.technology/learn/generative-ai-advantages-limitations-and-challenges/):
+
+**Quality of Generated Outputs:** Generative AI systems may not always produce high-quality outputs, and the generated outputs may contain errors or artifacts. This can be due to a variety of factors, such as a lack of data, poor training, or an overly complex model.\
+**Control Over the Generated Outputs:** Generative AI systems are typically trained on a dataset and can generate new outputs that are similar to, but not identical to, the input data. However, it can be difficult to control the specific characteristics of the generated outputs.\
+**Computational Requirements:** Generative AI systems typically require large amounts of data and computational resources to train. This can be expensive and time-consuming, which can be a barrier to entry for some organizations.\
+**Bias and Fairness:** Generative AI systems can inadvertently replicate biases present in the training data. This can lead to unfair or discriminatory results, particularly if the training data contains biased information.\
+**Explainability and Interpretability:** Generative AI models can be complex and opaque, making it difficult to understand how they are making their predictions. This can be a challenge when trying to ensure that the model is making fair and unbiased decisions.\
+**Safety and Security:** Generative AI systems can be used to generate realistic and convincing fake images, videos, and text, which can be used to spread misinformation or propaganda. This highlights the importance of developing safety and security measures to prevent the malicious use of generative AI.
 
 
 
@@ -99,7 +117,9 @@ The capabilities of a generative AI system depend on the modality or type of the
 ## References
 [1] [What is generative AI? Everything you need to know](https://www.techtarget.com/searchenterpriseai/definition/generative-AI)\
 [2] [Generative artificial intelligence](https://en.wikipedia.org/wiki/Generative_artificial_intelligence)\
-[3] [What is Generative AI?](https://www.nvidia.com/en-us/glossary/data-science/generative-ai/#:~:text=Generative%20AI%20models%20use%20neural,semi%2Dsupervised%20learning%20for%20training.)
+[3] [What is Generative AI?](https://www.nvidia.com/en-us/glossary/data-science/generative-ai/#:~:text=Generative%20AI%20models%20use%20neural,semi%2Dsupervised%20learning%20for%20training.)\
+[4] [Advantages Of Generative AI](https://speakai.co/advantages-of-generative-ai/)\
+[5] [Generative AI: Advantages, Disadvantages, Limitations, and Challenges](https://fact.technology/learn/generative-ai-advantages-limitations-and-challenges/)\
 
 
 

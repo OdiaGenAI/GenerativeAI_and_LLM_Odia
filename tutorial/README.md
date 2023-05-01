@@ -1,5 +1,9 @@
 ## Generative AI and LLM Tutorial
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/33823853/235499795-303e9dcb-36a2-45e7-96c5-f9b6f42557da.png" width="350" height="350">
+</p>
+
 ## Table of Contents
 
 * [Generative AI](generative_ai)
@@ -12,6 +16,38 @@
 
 
 ## Generative AI
+### What is Generative AI?
+Generative AI (GenAI) is a type of artificial intelligence technology that can produce various types of content including text, imagery, audio and synthetic data[[1]](https://www.techtarget.com/searchenterpriseai/definition/generative-AI). Generative models learn the patterns and structure of the input data, and then generate new content that is similar to the training data but with some degree of novelty (rather than only classifying or predicting data). Generative AI can be either unimodal or multimodal; unimodal systems take only one type of input (for example, text) whereas multimodal systems can take more than one type of input (for example, text and images)[[2]](https://en.wikipedia.org/wiki/Generative_artificial_intelligence). 
+
+The most prominent frameworks for approaching generative AI include generative adversarial networks (GANs) and generative pre-trained transformers (GPTs). GANs consist of two parts: a generator network that creates new data samples, and a discriminator network that evaluates whether the samples are real or fake. The two networks are trained together in a competitive process, with the generator network continually trying to produce better and more realistic samples, while the discriminator network tries to accurately identify the fake ones. GPTs are artificial neural networks that are based on the transformer architecture, pre-trained on large datasets of unlabelled text, and able to generate novel human-like text. They use large language models to produce data based on the training data set that was used to create them [[2]](https://en.wikipedia.org/wiki/Generative_artificial_intelligence).
+
+### What are the applications of Generative AI?
+Generative AI has many potential applications, including in creative fields such as art, music, and writing, as well as in fields such as healthcare, finance, and gaming. However, there are also concerns about the potential misuse of generative AI, such as in creating fake news or deepfakes, which can be used to deceive or manipulate people. Notable generative AI systems include ChatGPT, a chatbot built by OpenAI using their GPT-3 and GPT-4 founational large language models, and Bard, a chatbot built by Google using their LaMDA foundation model. Other generative AI models include artificial intelligence art systems such as Stable Diffusion, Midjourney, and DALL-E. Generative AI has potential applications across a wide range of industries, including software development, marketing, and fashion. Investment in generative AI surged during the early 2020s, with large companies such as Microsoft, Google, and Baidu as well as numerous smaller firms developing generative AI models [[2]](https://en.wikipedia.org/wiki/Generative_artificial_intelligence).
+
+### How Does Generative AI Works?
+Generative AI models use neural networks to identify the patterns and structures within existing data to generate new and original content. One of the breakthroughs with generative AI models is the ability to leverage different learning approaches, including unsupervised or semi-supervised learning for training. This has given organizations the ability to more easily and quickly leverage a large amount of unlabeled data to create foundation models. As the name suggests, foundation models can be used as a base for AI systems that can perform multiple tasks. 
+
+Examples of foundation models include GPT-3 and Stable Diffusion, which allow users to leverage the power of language. For example, popular applications like ChatGPT, which draws from GPT-3, allow users to generate an essay based on a short text request. On the other hand, Stable Diffusion allows users to generate photorealistic images given a text input [[3]](https://www.nvidia.com/en-us/glossary/data-science/generative-ai/#:~:text=Generative%20AI%20models%20use%20neural,semi%2Dsupervised%20learning%20for%20training.).
+
+### What are the capabilities of Generative AI?
+The capabilities of a generative AI system depend on the modality or type of the data set used [[2]](https://en.wikipedia.org/wiki/Generative_artificial_intelligence).
+
+**Text:** Generative AI systems trained on words or word tokens include GPT-3, LaMDA, LLaMA, BLOOM, GPT-4, and others (see List of large language models). They are capable of natural language processing, machine translation, and natural language generation and can be used as foundation models for other tasks. Data sets include BookCorpus, Wikipedia, and others (see List of text corpora).\
+**Code:** In addition to natural language text, large language models can be trained on programming language text, allowing them to generate source code for new computer programs. Examples include OpenAI Codex.\
+**Images:** Generative AI systems trained on sets of images with text captions include such as Imagen, DALL-E, Midjourney, Stable Diffusion and others (see Artificial intelligence art, Generative art, Synthetic media). They are commonly used for text-to-image generation and neural style transfer. Datasets include LAION-5B and others (See Datasets in computer vision).\
+**Molecules:** Generative AI systems can be trained on sequences of amino acids or molecular representations such as SMILES representing DNA or proteins. These systems, such as AlphaFold, are used for protein structure prediction and drug discovery.[20] Datasets include various biological datasets.\
+**Music:** Generative AI systems such as MusicLM can be trained on the audio waveforms of recorded music along with text annotations, in order to generate new musical samples based on text descriptions such as "a calming violin melody backed by a distorted guitar riff".\
+**Video:** Generative AI trained on annotated video can generate temporally-coherent video clips. Examples include Gen1 by RunwayML and Make-A-Video by Meta Platforms.\
+**Multimodal:** A generative AI system can be built from multiple generative models, or one model trained on multiple types of data. For example, one version of OpenAI's GPT-4 accepts both text and image inputs.\
+
+
+
+
+
+
+
+
+
 
 ## LLM
 
@@ -61,4 +97,11 @@
 
 
 ## References
+[1] [What is generative AI? Everything you need to know](https://www.techtarget.com/searchenterpriseai/definition/generative-AI)\
+[2] [Generative artificial intelligence](https://en.wikipedia.org/wiki/Generative_artificial_intelligence)\
+[3] [What is Generative AI?](https://www.nvidia.com/en-us/glossary/data-science/generative-ai/#:~:text=Generative%20AI%20models%20use%20neural,semi%2Dsupervised%20learning%20for%20training.)
+
+
+
+
 

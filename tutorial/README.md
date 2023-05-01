@@ -56,7 +56,7 @@
 [31] [ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)\
 [32] [PEFT LoRA Explained in Detail - Fine-Tune your LLM on your local GPU](https://www.youtube.com/watch?v=YVU5wAA6Txo)\
 [33] [Finetuning Large Language Models](https://magazine.sebastianraschka.com/p/finetuning-large-language-models)\
-[34] [The ALPACA Code explained: Self-instruct fine-tuning of LLMs](https://www.youtube.com/watch?v=jQL0ZeHtXFc)
+[34] [The ALPACA Code explained: Self-instruct fine-tuning of LLMs](https://www.youtube.com/watch?v=jQL0ZeHtXFc)\
 [35] [A brief history of LLaMA models](https://agi-sphere.com/llama-models/)
 
 

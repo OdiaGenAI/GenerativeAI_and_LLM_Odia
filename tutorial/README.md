@@ -61,13 +61,20 @@ Some of the advantages of generative AI are [[5]](https://fact.technology/learn/
 **Explainability and Interpretability:** Generative AI models can be complex and opaque, making it difficult to understand how they are making their predictions. This can be a challenge when trying to ensure that the model is making fair and unbiased decisions.\
 **Safety and Security:** Generative AI systems can be used to generate realistic and convincing fake images, videos, and text, which can be used to spread misinformation or propaganda. This highlights the importance of developing safety and security measures to prevent the malicious use of generative AI.
 
+## Large Language Model (LLM)
+### What is LLM?
+A large language model (LLM) is a language model consisting of a neural network with many parameters (typically billions of weights or more), trained on large quantities of unlabeled text using self-supervised learning or semi-supervised learning. LLMs are general purpose models which excel at a wide range of tasks, as opposed to being trained for one specific task (such as sentiment analysis, named entity recognition, or mathematical reasoning). The skill with which they accomplish tasks, and the range of tasks at which they are capable, seems to be a function of the amount of resources (data, parameter-size, computing power) devoted to them [[7]](https://en.wikipedia.org/wiki/Large_language_model). 
+
+### What is the Architecture of LLM?
+Large language models have most commonly used the transformer architecture, which, since 2018, has become the standard deep learning technique for sequential data [[7]](https://en.wikipedia.org/wiki/Large_language_model). The task of the encoder, on the left half of the Transformer architecture, is to map an input sequence to a sequence of continuous representations, which is then fed into a decoder. The decoder, on the right half of the architecture, receives the output of the encoder together with the decoder output at the previous time step to generate an output sequence [[9]](https://machinelearningmastery.com/the-transformer-model). 
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/33823853/236545886-c1b589d2-5d4d-4270-b7b4-7ede461fc068.jpeg" width="500" height="800">
+  <br>
+    <em>Figure 1: The Encoder-Decoder structure of the Transformer Architecture Taken from “Attention Is All You Need“</em>
+</p>
 
 
-
-
-
-
-## LLM
 
 ## Prompt Engineering
 
@@ -120,6 +127,11 @@ Some of the advantages of generative AI are [[5]](https://fact.technology/learn/
 [3] [What is Generative AI?](https://www.nvidia.com/en-us/glossary/data-science/generative-ai/#:~:text=Generative%20AI%20models%20use%20neural,semi%2Dsupervised%20learning%20for%20training.)\
 [4] [Advantages Of Generative AI](https://speakai.co/advantages-of-generative-ai/)\
 [5] [Generative AI: Advantages, Disadvantages, Limitations, and Challenges](https://fact.technology/learn/generative-ai-advantages-limitations-and-challenges/)\
+[6] [Stanford CS324 - Large Language Models](https://stanford-cs324.github.io/winter2022/)\
+[7] [Large language model](https://en.wikipedia.org/wiki/Large_language_model)\
+[8] [A Survey of Large Language Models](https://arxiv.org/pdf/2303.18223.pdf)\
+[9] [The Transformer Model](https://machinelearningmastery.com/the-transformer-model)
+
 
 
 

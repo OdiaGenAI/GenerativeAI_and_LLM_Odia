@@ -119,8 +119,10 @@ Large language models have most commonly used the transformer architecture, whic
 [33] [Finetuning Large Language Models](https://magazine.sebastianraschka.com/p/finetuning-large-language-models)\
 [34] [The ALPACA Code explained: Self-instruct fine-tuning of LLMs](https://www.youtube.com/watch?v=jQL0ZeHtXFc)\
 [35] [A brief history of LLaMA models](https://agi-sphere.com/llama-models/)\
-[36] [Evaluating Large Language Models (LLMs) with Eleuther AI](https://wandb.ai/wandb_gen/llm-evaluation/reports/Evaluating-Large-Language-Models-LLMs-with-Eleuther-AI--VmlldzoyOTI0MDQ3)
-[37] [Very Large Language Models and How to Evaluate Them](https://huggingface.co/blog/zero-shot-eval-on-the-hub)
+[36] [Evaluating Large Language Models (LLMs) with Eleuther AI](https://wandb.ai/wandb_gen/llm-evaluation/reports/Evaluating-Large-Language-Models-LLMs-with-Eleuther-AI--VmlldzoyOTI0MDQ3)\
+[37] [Very Large Language Models and How to Evaluate Them](https://huggingface.co/blog/zero-shot-eval-on-the-hub)\
+[38] [Distilling Step-by-Step! Outperforming Larger Language Models
+with Less Training Data and Smaller Model Sizes](https://arxiv.org/pdf/2305.02301.pdf)
 
 
 ## References

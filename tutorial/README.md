@@ -122,7 +122,8 @@ Large language models have most commonly used the transformer architecture, whic
 [36] [Evaluating Large Language Models (LLMs) with Eleuther AI](https://wandb.ai/wandb_gen/llm-evaluation/reports/Evaluating-Large-Language-Models-LLMs-with-Eleuther-AI--VmlldzoyOTI0MDQ3)\
 [37] [Very Large Language Models and How to Evaluate Them](https://huggingface.co/blog/zero-shot-eval-on-the-hub)\
 [38] [Distilling Step-by-Step! Outperforming Larger Language Models
-with Less Training Data and Smaller Model Sizes](https://arxiv.org/pdf/2305.02301.pdf)
+with Less Training Data and Smaller Model Sizes](https://arxiv.org/pdf/2305.02301.pdf)\
+[39] [THE DARK SIDE OF LARGE LANGUAGE MODELS](https://hiddenlayer.com/research/the-dark-side-of-large-language-models-2/)
 
 
 ## References

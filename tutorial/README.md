@@ -1,7 +1,8 @@
+
 ## Generative AI and LLM Tutorial
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/33823853/235499795-303e9dcb-36a2-45e7-96c5-f9b6f42557da.png" width="350" height="350">
+  <img src="https://github.com/OdiaGenAI/GenerativeAI_and_LLM_Odia/assets/33823853/ea7051a8-f90e-4e40-ae71-31ef0e13badb" width="400" height="400">
 </p>
 
 ## Table of Contents

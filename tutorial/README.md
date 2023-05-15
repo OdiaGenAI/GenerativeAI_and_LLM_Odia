@@ -125,7 +125,8 @@ Large language models have most commonly used the transformer architecture, whic
 [38] [Distilling Step-by-Step! Outperforming Larger Language Models
 with Less Training Data and Smaller Model Sizes](https://arxiv.org/pdf/2305.02301.pdf)\
 [39] [THE DARK SIDE OF LARGE LANGUAGE MODELS](https://hiddenlayer.com/research/the-dark-side-of-large-language-models-2/)\
-[40] [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
+[40] [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)\
+[41] [LLM University](https://docs.cohere.com/docs/llmu)
 
 
 ## References

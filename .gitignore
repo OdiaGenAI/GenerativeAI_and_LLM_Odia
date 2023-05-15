@@ -8,6 +8,8 @@
 !.pre-commit-config.yaml
 !pip-requirements.txt
 
+!.github
+
 **/output
 **/venv
 **/__pycache__

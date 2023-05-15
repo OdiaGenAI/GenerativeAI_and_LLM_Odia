@@ -28,7 +28,8 @@
   - [License](#license)
 
 ## Latest Updates
-- **[12thApril2023]** We released our first experiment Odia LLM [odiagenAI-model-v0](https://huggingface.co/OdiaGenAI/odiagenAI-model-v0). Please go through our [Blog](https://www.odiagenai.org/blog/odiagenai-released-the-first-llm-for-the-low-resource-odia-language) for more details.    
+
+- **[12thApril2023]** We released our first experiment Odia LLM [odiagenAI-model-v0](https://huggingface.co/OdiaGenAI/odiagenAI-model-v0). Please go through our [Blog](https://www.odiagenai.org/blog/odiagenai-released-the-first-llm-for-the-low-resource-odia-language) for more details.
 
 ## About
 
@@ -78,7 +79,7 @@ There are several use cases of OdiaGenAI LLMs. Three primary domains relating to
 
 ## Apps
 
-- [Translate to Indic Languages From English](apps/translate-to-indic-lang/README.md)
+- [Translate to Indic Languages From English](apps/README.md)
 
 ## Contributors
 
@@ -92,13 +93,14 @@ There are several use cases of OdiaGenAI LLMs. Three primary domains relating to
 - [Dr. Satya Ranjan Dash](https://ksca.kiit.ac.in/profiles/satya-ranjan-dash/)
 - [Deepak Kumar Pradhan](https://www.linkedin.com/in/dkpradhan/)
 
-*About our logo:* The critically endangered [Olive Ridley](https://roundglasssustain.com/photostories/olive-ridley-turtles-endangered) sea turtle is the world's smallest and most prevalent marine turtle. Travel thousands of kilometers in the ocean for nesting. The Gahirmatha Marine Sanctuary in [Odisha](https://en.wikipedia.org/wiki/Odisha) is the largest known mass nesting rookery for olive ridley sea turtles worldwide.
+_About our logo:_ The critically endangered [Olive Ridley](https://roundglasssustain.com/photostories/olive-ridley-turtles-endangered) sea turtle is the world's smallest and most prevalent marine turtle. Travel thousands of kilometers in the ocean for nesting. The Gahirmatha Marine Sanctuary in [Odisha](https://en.wikipedia.org/wiki/Odisha) is the largest known mass nesting rookery for olive ridley sea turtles worldwide.
 
 ## Contact
 
 Please contact Shantipriya Parida (shantipriya.parida@gmail.com) for any contribution/support/usage.
 
 ## Supporters
+
 [Odias in Machine Learning](https://www.odisha.ml/)
 
 ## Citation

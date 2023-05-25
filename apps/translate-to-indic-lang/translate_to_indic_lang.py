@@ -192,6 +192,9 @@ class TranslateToIndicLang:
                 for i, item in enumerate(data)
             }
 
+        # for i in data:
+        #     self.translate_and_save(i, data.index(i))
+
         return data_cnt
 
     def run(self) -> None:

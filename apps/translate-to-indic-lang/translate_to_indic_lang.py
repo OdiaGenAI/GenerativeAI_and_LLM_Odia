@@ -125,6 +125,10 @@ class TranslateToIndicLang:
         translated_item = {}
         for key, value in item.items():
             if value:
+                # To handle when value is a list
+                if isinstance(value, list):
+                    value = "\n".join(value)
+
                 translated_value = self.translate_text(value)
                 translated_item[key] = translated_value
                 translated_item["english_" + key] = value
@@ -154,6 +158,7 @@ class TranslateToIndicLang:
             self.save_item(translated_item, output_fname)
             print("Successfully translated - " + output_fname)
         except Exception as e:
+            print(e)
             print("Error in translation - " + f"error_in_translation_{i}.txt")
             with open(
                 failure_fname,
@@ -191,6 +196,9 @@ class TranslateToIndicLang:
                 executor.submit(self.translate_and_save, item, i)
                 for i, item in enumerate(data)
             }
+
+        # for i in data:
+        #     self.translate_and_save(i, data.index(i))
 
         return data_cnt
 

@@ -124,11 +124,17 @@ class TranslateToIndicLang:
         """translate item"""
         translated_item = {}
         for key, value in item.items():
-            if value:
-                # To handle when value is a list
-                if isinstance(value, list):
-                    value = "\n".join(value)
+            # To handle when value is a list
+            if isinstance(value, list):
+                value = "\n".join(value)
+            elif isinstance(value, float):
+                value = None
+            elif isinstance(value, int):
+                value = None
+            else:
+                value = value  # shall process others
 
+            if value:
                 translated_value = self.translate_text(value)
                 translated_item[key] = translated_value
                 translated_item["english_" + key] = value

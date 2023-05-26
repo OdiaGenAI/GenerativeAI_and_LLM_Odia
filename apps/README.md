@@ -74,5 +74,5 @@ Any possible errors are logger under `indicTrans/.work_dir/output/translated/err
 1. Check the number of files translated, when the app is still running. From the project's home directory run the following command.
 
 ```bash
-  ls indicTrans/.work_dir/output/translated/error | wc -l && ls indicTrans/.work_dir/output/translated/data | wc -l
+  echo "Errors: `ls indicTrans/.work_dir/output/translated/error | wc -l`" && echo "Processed: `ls indicTrans/.work_dir/output/translated/data | wc -l`"
 ```
